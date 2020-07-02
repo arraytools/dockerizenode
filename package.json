@@ -1,0 +1,14 @@
+{
+  "name": "my-super-app",
+  "version": "1.0.0",
+  "description": "simple docker porject",
+  "main": "server.js",
+  "scripts": {
+  "start": "pm2-runtime start ./server.js --name node_app"
+},
+"author": "kdafd",
+"license": "Unlicense",
+"dependencies": {
+  "express": "4.16.4"
+}
+}
